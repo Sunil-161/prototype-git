@@ -1,3 +1,4 @@
+#include<stdio.h>
 int main(int argc, char const *argv[])
 {
      printf("Hello world\n");
@@ -12,11 +13,16 @@ int main(int argc, char const *argv[])
             i--;
         }
      }
+      printf("\n");
 	for(int i=0; i< 15; i ++)
 	{
-		printf("%c",65 + i);
+		printf("%c\n",65 + i);
 	}
 	printf("Typing something\n");
-
+        for (int i  = 0 ;i  < 10; i ++)
+        {
+            printf("%d\n",i*5); 
+        }
+        
     return 0;
 }
